@@ -1,0 +1,8 @@
+
+---Importing content---
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+
+Max execution time after content import = 300

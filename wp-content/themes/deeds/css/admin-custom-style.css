@@ -1,0 +1,108 @@
+.wp-core-ui .notice.is-dismissible{width:95%;}
+
+.importer_result {
+    cursor: pointer;
+    display: none;
+}
+.importer_result {
+    background: #eeeeff none repeat scroll 0 0;
+    border: 4px solid #4591ed !important;
+    border-radius: 0;
+    left: 25%;
+    position: fixed;
+    top: 45px;
+    width: 50%;
+    z-index: 9999999;
+    padding: 80px 65px;
+    min-height: auto;
+    z-index:2147483647;
+}
+.importer_heading > span {
+    background: #3a3a3a none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 600;
+    height: 33px;
+    line-height: 31px;
+    position: absolute;
+    right: 28px;
+    text-align: center;
+    top: 28px;
+    width: 33px;
+}
+.importer_heading {
+    float: left;
+    width: 100%;
+}
+.importer_heading h1 {
+    color: #1e1e1e;
+    float: left;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    padding-left: 36px;
+    padding-top: 0;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+}
+.importer_heading h1::before {
+    content: "\f06a";
+    font-family: fontawesome;
+    font-size: 25px;
+    left: 0;
+    line-height: 27px;
+    position: absolute;
+    top: 0;
+}
+.importer_result .result > p {
+    color: #484848;
+    float: left;
+    margin-top: 2px;
+    padding-left: 37px;
+    width: 100%;
+}
+.importer_result .result {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.importer_result .notice {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    float: left;
+    margin-top: 30px;
+    padding: 20px 30px !important;
+    position: relative !important;
+    width: 100% !important;
+}
+.importer_result .notice::before {
+    border-bottom: 6px solid white;
+    border-left: 5px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    left: 37px;
+    position: absolute;
+    top: -5px;
+}
+.importer_result .notice p strong span {
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.importer_result .notice p strong span a {
+    color: #405398;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: italic;
+    margin-right: 4px;
+    text-decoration: underline;
+}
+
